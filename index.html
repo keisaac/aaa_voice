@@ -1,1 +1,82 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Katie's Voice</title></head><body><h1>Katie's Voice</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katie Becker</title>
+  <style>
+    @font-face {
+      font-family: 'ElanITCPro';
+      src: url('fonts/ElanITCPro-Updated.otf') format('opentype');
+    }
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      overflow: hidden;
+      font-family: 'ElanITCPro', sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      color: white;
+      position: relative;
+    }
+    .background {
+      position: fixed;
+      top: 0; left: 0; width: 110%; height: 110%;
+      background: url('background.jpg') center/cover no-repeat;
+      z-index: -1;
+      animation: floatBg 60s ease-in-out infinite alternate;
+    }
+    @keyframes floatBg {
+      0%   { transform: scale(1.05) translate(0px, 0px); }
+      50%  { transform: scale(1.08) translate(-10px, -10px); }
+      100% { transform: scale(1.05) translate(0px, 0px); }
+    }
+    h1 {
+      font-size: 3em; margin-bottom: 40px;
+    }
+    .buttons {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 20px;
+    }
+    .button {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1.5em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background: rgba(255,255,255,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <h1>Katie Becker</h1>
+  <div class="buttons">
+    <div class="button" onclick="playAudio('voice01')">VOICE01</div>
+    <div class="button">VOICE02</div>
+    <div class="button">VOICE03</div>
+    <div class="button">VOICE04</div>
+    <div class="button">VOICE05</div>
+  </div>
+  <audio id="audioPlayer" src="audio_snippets/voice01.m4a" type="audio/mp4"></audio>
+  <script>
+    function playAudio(voiceId) {
+      const audio = document.getElementById('audioPlayer');
+      audio.currentTime = 0;
+      audio.play();
+      audio.onended = () => {
+        audio.currentTime = 0;
+      };
+    }
+  </script>
+</body>
+</html>
