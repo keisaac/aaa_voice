@@ -77,7 +77,7 @@
   </div>
   <audio id="audioPlayer" type="audio/mp3"></audio>
   <script>
-    const fadeDuration = 2.0; // フェードイン・アウト時間（秒）
+    const fadeDuration = 3.0; // フェードイン・アウト時間（秒）
 
     function playAudio(voiceId) {
       const audio = document.getElementById('audioPlayer');
@@ -97,7 +97,7 @@
         } else {
           clearInterval(fadeInInterval);
         }
-      }, fadeDuration * 50);
+      }, fadeDuration * 100);
 
       // 終了時にフェードアウト
       audio.onended = () => {
@@ -111,7 +111,7 @@
             audio.pause();
             audio.currentTime = 0;
           }
-        }, fadeDuration * 50);
+        }, fadeDuration * 100);
       };
     }
   </script>
