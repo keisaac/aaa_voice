@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KATIE BECKER</title>
+  <style>
+    @font-face {
+      font-family: 'ElanITCPro';
+      src: url('fonts/ElanITCPro-Updated.otf') format('opentype');
+    }
+    @font-face {
+      font-family: 'NotoSansJP';
+      src: url('fonts/NotoSansJP-Medium.ttf') format('truetype');
+    }
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      overflow: hidden;
+      font-family: 'ElanITCPro', sans-serif;
+    }
+    body {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      background: black; color: white; position: relative;
+    }
+    .background {
+      position: fixed;
+      top: 0; left: 0; width: 110%; height: 110%;
+      background: url('background.jpg') center/cover no-repeat;
+      z-index: -1;
+      animation: floatBg 60s ease-in-out infinite alternate;
+    }
+    @keyframes floatBg {
+      0%   { transform: scale(1.05) translate(0px, 0px); }
+      50%  { transform: scale(1.08) translate(-10px, -10px); }
+      100% { transform: scale(1.05) translate(0px, 0px); }
+    }
+    h1 {
+      font-size: 3em; margin-bottom: 40px; font-family: 'ElanITCPro';
+    }
+    .buttons {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 20px;
+    }
+    .button {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1.5em;
+      cursor: pointer;
+      font-family: 'ElanITCPro';
+    }
+    .button:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+    .pulsing {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    .subtitles {
+      position: absolute;
+      bottom: 60px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.4em;
+      line-height: 1.6em;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px 0;
+      font-family: 'NotoSansJP';
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <h1>KATIE BECKER</h1>
+  <div class="buttons">
+    <div class="button" onclick="playAudio('voice01')">VOICE01</div>
+    <div class="button" onclick="playAudio('voice02')">VOICE02</div>
+    <div class="button" onclick="playAudio('voice03')">VOICE03</div>
+    <div class="button" onclick="playAudio('voice04')">VOICE04</div>
+    <div class="button" onclick="playAudio('voice05')">VOICE05</div>
+  </div>
+  <div class="subtitles">
+    <div id="subtitle-en"></div>
+    <div id="subtitle-ja"></div>
+  </div>
+  <audio id="audioPlayer"></audio>
+
+  <script>
+    const subtitles = [
+      { start: 0.0, end: 3.5, en: "There’s always a better way.", ja: "もっと良い方法は、きっとある。" },
+      { start: 3.6, end: 7.0, en: "That’s our philosophy.", ja: "それが、私たちの哲学です。" },
+      { start: 7.1, end: 11.0, en: "It begins with authenticity.", ja: "すべては、本物であることから始まる。" }
+    ];
+    const audio = document.getElementById('audioPlayer');
+    const en = document.getElementById('subtitle-en');
+    const ja = document.getElementById('subtitle-ja');
+
+    function playAudio(voiceId) {
+      audio.src = "audio_snippets/" + voiceId + ".mp3";
+      audio.volume = 0;
+      audio.currentTime = 0;
+      const button = document.querySelector(`.button[onclick*="${voiceId}"]`);
+      button.classList.add('pulsing');
+      audio.play();
+
+      let fadeIn = setInterval(() => {
+        if (audio.volume < 1.0) {
+          audio.volume = Math.min(audio.volume + 0.05, 1.0);
+        } else {
+          clearInterval(fadeIn);
+        }
+      }, 100);
+
+      let subtitleIndex = 0;
+      const interval = setInterval(() => {
+        const t = audio.currentTime;
+        if (subtitleIndex < subtitles.length &&
+            t >= subtitles[subtitleIndex].start &&
+            t <= subtitles[subtitleIndex].end) {
+          en.textContent = subtitles[subtitleIndex].en;
+          ja.textContent = subtitles[subtitleIndex].ja;
+        } else if (subtitleIndex < subtitles.length && t > subtitles[subtitleIndex].end) {
+          subtitleIndex++;
+        }
+        if (subtitleIndex >= subtitles.length || audio.ended) {
+          en.textContent = "";
+          ja.textContent = "";
+        }
+      }, 200);
+
+      audio.onended = () => {
+        clearInterval(interval);
+        button.classList.remove('pulsing');
+        en.textContent = "";
+        ja.textContent = "";
+        audio.currentTime = 0;
+      };
+    }
+  </script>
+</body>
+</html>
