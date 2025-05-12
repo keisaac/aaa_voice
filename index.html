@@ -24,19 +24,31 @@
       align-items: center; justify-content: center;
       background: black; color: white; position: relative;
     }
-    .button-group {
-      display: flex; flex-direction: column; align-items: center; gap: 10px;
-      margin: 0 20px;
+    .background {
+      position: fixed;
+      top: 0; left: 0; width: 110%; height: 110%;
+      background: url('background.jpg') center/cover no-repeat;
+      z-index: -1;
+      animation: floatBg 60s ease-in-out infinite alternate;
+    }
+    @keyframes floatBg {
+      0%   { transform: scale(1.05) translate(0px, 0px); }
+      50%  { transform: scale(1.08) translate(-10px, -10px); }
+      100% { transform: scale(1.05) translate(0px, 0px); }
+    }
+    h1 {
+      font-size: 3em; margin-bottom: 40px; font-family: 'ElanITCPro';
     }
     .buttons {
-      display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 20px;
     }
     .button {
       background: rgba(255,255,255,0.1);
       border: 1px solid white;
-      padding: 10px 25px;
+      padding: 15px 30px;
       border-radius: 8px;
-      font-size: 1.2em;
+      font-size: 1.5em;
       cursor: pointer;
       font-family: 'ElanITCPro';
     }
@@ -65,21 +77,25 @@
   </style>
 </head>
 <body>
-  <h1 style="font-size: 3em; margin-bottom: 40px;">KATIE BECKER</h1>
-  <div class="buttons">
-    <div class="button-group">
-      <div class="button" onclick="playAudio(this, 'voice01')">VOICE01</div>
-      <div class="button" onclick="resetAudio()">Reset</div>
-    </div>
-    <div class="button-group">
-      <div class="button" onclick="playAudio(this, 'voice02')">VOICE02</div>
-      <div class="button" onclick="resetAudio()">Reset</div>
-    </div>
-    <div class="button-group">
-      <div class="button" onclick="playAudio(this, 'voice03')">VOICE03</div>
-      <div class="button" onclick="resetAudio()">Reset</div>
-    </div>
+  <div class="background"></div>
+  <h1>KATIE BECKER</h1>
+  
+<div class="buttons">
+  <div class="button-group">
+    <div class="button" onclick="playAudio(this, 'voice01')">VOICE01</div>
+    <div class="reset" onclick="resetAudio()">Reset</div>
   </div>
+  <div class="button-group">
+    <div class="button" onclick="playAudio(this, 'voice02')">VOICE02</div>
+    <div class="reset" onclick="resetAudio()">Reset</div>
+  </div>
+  <div class="button-group">
+    <div class="button" onclick="playAudio(this, 'voice03')">VOICE03</div>
+    <div class="reset" onclick="resetAudio()">Reset</div>
+  </div>
+</div>
+
+
   <div class="subtitles">
     <div id="subtitle-en"></div>
     <div id="subtitle-ja"></div>
@@ -87,7 +103,8 @@
   <audio id="audioPlayer"></audio>
 
   <script>
-    const subtitles = [];
+    const subtitles = [{"start": 0.0, "end": 3.5, "en": "There's always a better way.", "ja": "もっと良い方法は、きっとある。"}, {"start": 4.0, "end": 7.2, "en": "We just need to find it.", "ja": "それを見つけ出すだけだ。"}, {"start": 7.3, "end": 10.0, "en": "That’s the beginning of everything.", "ja": "すべては、そこから始まる。"}];
+
     const audio = document.getElementById('audioPlayer');
     const en = document.getElementById('subtitle-en');
     const ja = document.getElementById('subtitle-ja');
@@ -153,18 +170,19 @@
         currentVoiceId = null;
       };
     }
-
-    function resetAudio() {
-      if (audio) {
-        audio.pause();
-        audio.currentTime = 0;
-        if (currentButton) {
-          currentButton.classList.remove('pulsing');
-        }
-        en.textContent = "";
-        ja.textContent = "";
-      }
+  
+function resetAudio() {
+  if (audio) {
+    audio.pause();
+    audio.currentTime = 0;
+    if (currentButton) {
+      currentButton.classList.remove('pulsing');
     }
-  </script>
+    en.textContent = "";
+    ja.textContent = "";
+  }
+}
+
+</script>
 </body>
 </html>
