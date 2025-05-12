@@ -80,11 +80,9 @@
   <div class="background"></div>
   <h1>KATIE BECKER</h1>
   <div class="buttons">
-    <div class="button" onclick="playAudio('voice01')">VOICE01</div>
-    <div class="button" onclick="playAudio('voice02')">VOICE02</div>
-    <div class="button" onclick="playAudio('voice03')">VOICE03</div>
-    <div class="button" onclick="playAudio('voice04')">VOICE04</div>
-    <div class="button" onclick="playAudio('voice05')">VOICE05</div>
+    <div class="button" onclick="playAudio(this, 'voice01')">VOICE01</div>
+    <div class="button" onclick="playAudio(this, 'voice02')">VOICE02</div>
+    <div class="button" onclick="playAudio(this, 'voice03')">VOICE03</div>
   </div>
   <div class="subtitles">
     <div id="subtitle-en"></div>
@@ -93,22 +91,38 @@
   <audio id="audioPlayer"></audio>
 
   <script>
-    const subtitles = [
-      { start: 0.0, end: 3.5, en: "There’s always a better way.", ja: "もっと良い方法は、きっとある。" },
-      { start: 3.6, end: 7.0, en: "That’s our philosophy.", ja: "それが、私たちの哲学です。" },
-      { start: 7.1, end: 11.0, en: "It begins with authenticity.", ja: "すべては、本物であることから始まる。" }
-    ];
+    const subtitles = [];
     const audio = document.getElementById('audioPlayer');
     const en = document.getElementById('subtitle-en');
     const ja = document.getElementById('subtitle-ja');
+    let currentVoiceId = null;
+    let currentButton = null;
+    let subtitleIndex = 0;
+    let interval = null;
 
-    function playAudio(voiceId) {
+    function playAudio(button, voiceId) {
+      if (currentVoiceId === voiceId && !audio.paused) {
+        audio.pause();
+        button.classList.remove('pulsing');
+        return;
+      } else if (currentVoiceId === voiceId && audio.paused) {
+        audio.play();
+        button.classList.add('pulsing');
+        return;
+      }
+
+      if (interval) clearInterval(interval);
+      if (currentButton) currentButton.classList.remove('pulsing');
+
+      currentVoiceId = voiceId;
+      currentButton = button;
+      subtitleIndex = 0;
+
       audio.src = "audio_snippets/" + voiceId + ".mp3";
       audio.volume = 0;
       audio.currentTime = 0;
-      const button = document.querySelector(`.button[onclick*="${voiceId}"]`);
-      button.classList.add('pulsing');
       audio.play();
+      button.classList.add('pulsing');
 
       let fadeIn = setInterval(() => {
         if (audio.volume < 1.0) {
@@ -118,8 +132,7 @@
         }
       }, 100);
 
-      let subtitleIndex = 0;
-      const interval = setInterval(() => {
+      interval = setInterval(() => {
         const t = audio.currentTime;
         if (subtitleIndex < subtitles.length &&
             t >= subtitles[subtitleIndex].start &&
@@ -141,6 +154,7 @@
         en.textContent = "";
         ja.textContent = "";
         audio.currentTime = 0;
+        currentVoiceId = null;
       };
     }
   </script>
