@@ -29,7 +29,7 @@
       top: 0; left: 0; width: 110%; height: 110%;
       background: url('background.jpg') center/cover no-repeat;
       z-index: -1;
-      animation: floatBg 60s ease-in-out infinite alternate;
+      animation: floatBg 40s ease-in-out infinite alternate;
     }
     @keyframes floatBg {
       0%   { transform: scale(1.05) translate(0px, 0px); }
@@ -37,7 +37,7 @@
       100% { transform: scale(1.05) translate(0px, 0px); }
     }
     h1 {
-      font-size: 2.6em; margin-bottom: 40px; font-family: 'ElanITCPro';
+      font-size: 2.2em; margin-bottom: 40px; font-family: 'ElanITCPro';
     }
     .buttons {
       display: flex; flex-wrap: wrap; justify-content: center;
@@ -46,9 +46,9 @@
     .button {
       background: rgba(255,255,255,0.1);
       border: 1px solid white;
-      padding: 15px 30px;
-      border-radius: 8px;
-      font-size: 1.5em;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 1.2em;
       cursor: pointer;
       font-family: 'ElanITCPro';
     }
@@ -57,7 +57,7 @@
     }
     @keyframes pulse {
       0% { opacity: 1; }
-      50% { opacity: 0.5; }
+      50% { opacity: 0.2; }
       100% { opacity: 1; }
     }
     .pulsing {
@@ -65,13 +65,13 @@
     }
     .subtitles {
       position: absolute;
-      bottom: 60px;
+      bottom: 30px;
       width: 100%;
       text-align: center;
-      font-size: 1.4em;
-      line-height: 1.6em;
+      font-size: 0.7em;
+      line-height: 1.2em;
       background: rgba(0, 0, 0, 0.4);
-      padding: 10px 0;
+      padding: 4px 0;
       font-family: 'NotoSansJP';
     }
   </style>
@@ -79,19 +79,15 @@
 <body>
   <div class="background"></div>
   <h1>ALEX PLANTE</h1>
-  <div style="font-size: 1.4em; font-family: 'ElanITCPro'; opacity: 0.8; margin-top: -40px; margin-bottom: 40px;">Vice President, Advanced Concepts</div>
+  <div style="font-size: 1.2em; font-family: 'ElanITCPro'; opacity: 0.8; margin-top: -40px; margin-bottom: 40px;">Vice President, Advanced Concepts</div>
   
 <div class="buttons">
   <div class="button-group">
-    <div class="button" onclick="playAudio(this, 'voice01')">VOICE01</div>
+    <div class="button" onclick="playAudio(this, 'voice01')">Advancet Concepts 3min</div>
     <div class="reset" onclick="resetAudio()">Reset</div>
   </div>
   <div class="button-group">
-    <div class="button" onclick="playAudio(this, 'voice02')">VOICE02</div>
-    <div class="reset" onclick="resetAudio()">Reset</div>
-  </div>
-  <div class="button-group">
-    <div class="button" onclick="playAudio(this, 'voice03')">VOICE03</div>
+    <div class="button" onclick="playAudio(this, 'voice02')">Athelets 2min</div>
     <div class="reset" onclick="resetAudio()">Reset</div>
   </div>
 </div>
