@@ -120,7 +120,21 @@
     }
 
     function playAudio(button, voiceId) {
-  if (audio.src && !audio.paused) {
+  if (currentVoiceId === voiceId) {
+    // 同じVOICEを押した場合：一時停止 → 再開
+    if (!audio.paused) {
+      audio.pause();
+      button.classList.remove('pulsing');
+      return;
+    } else {
+      audio.play();
+      button.classList.add('pulsing');
+      return;
+    }
+  }
+
+  // 他のVOICEが押された場合：現在の音声を停止・リセット
+  if (!audio.paused) {
     audio.pause();
     audio.currentTime = 0;
     if (currentButton) {
