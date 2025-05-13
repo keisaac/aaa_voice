@@ -1,20 +1,284 @@
 [
   {
-    "start": 0.0,
-    "end": 3.5,
-    "en": "There's always a better way.",
-    "ja": "もっと良い方法は、きっとある。"
+    "start": 0.03,
+    "end": 2.4,
+    "en": "Tell me, what is the other one?",
+    "ja": ""
   },
   {
-    "start": 4.0,
-    "end": 7.2,
-    "en": "We just need to find it.",
-    "ja": "それを見つけ出すだけだ。"
+    "start": 2.4,
+    "end": 5.37,
+    "en": "Concept team at Arc'teryx.",
+    "ja": ""
   },
   {
-    "start": 7.3,
-    "end": 10.0,
-    "en": "That’s the beginning of everything.",
-    "ja": "すべては、そこから始まる。"
+    "start": 5.77,
+    "end": 6.04,
+    "en": "Yeah.",
+    "ja": ""
+  },
+  {
+    "start": 6.04,
+    "end": 9.78,
+    "en": "We, The Advanced Concepts team is a team",
+    "ja": ""
+  },
+  {
+    "start": 9.78,
+    "end": 13.95,
+    "en": "of engineers, scientists, designers who are responsible",
+    "ja": ""
+  },
+  {
+    "start": 13.95,
+    "end": 17.38,
+    "en": "for building breakthrough innovation for Arc'teryx.",
+    "ja": ""
+  },
+  {
+    "start": 18.15,
+    "end": 21.86,
+    "en": "And kind of being that team looking into the future, constantly",
+    "ja": ""
+  },
+  {
+    "start": 21.86,
+    "end": 26.69,
+    "en": "focusing on those big problems that, the mountain athlete",
+    "ja": ""
+  },
+  {
+    "start": 27.06,
+    "end": 30.23,
+    "en": "has, and building disruptive concepts to solve them.",
+    "ja": ""
+  },
+  {
+    "start": 31.86,
+    "end": 35.84,
+    "en": "So what kinds of projects does the team work on at the moment?",
+    "ja": ""
+  },
+  {
+    "start": 36.04,
+    "end": 39.41,
+    "en": "Yeah, we we have a very big range of projects.",
+    "ja": ""
+  },
+  {
+    "start": 39.41,
+    "end": 44.54,
+    "en": "We do things for, that are, you know, big crazy ideas as well as,",
+    "ja": ""
+  },
+  {
+    "start": 44.98,
+    "end": 49.08,
+    "en": "more brand driving, kind of, disruptive evolution type work.",
+    "ja": ""
+  },
+  {
+    "start": 49.08,
+    "end": 52.79,
+    "en": "We do things that are physical, digital, summer, winter.",
+    "ja": ""
+  },
+  {
+    "start": 52.79,
+    "end": 55.79,
+    "en": "We have a really broad spectrum of projects.",
+    "ja": ""
+  },
+  {
+    "start": 55.79,
+    "end": 60.86,
+    "en": "A lot of it is far into the future, so, we can't always talk about it.",
+    "ja": ""
+  },
+  {
+    "start": 61.06,
+    "end": 62.63,
+    "en": "We have a few exciting things",
+    "ja": ""
+  },
+  {
+    "start": 62.63,
+    "end": 64.96,
+    "en": "from the past few years that we've worked on.",
+    "ja": ""
+  },
+  {
+    "start": 64.96,
+    "end": 69.87,
+    "en": "So, the avalanche airbag is the first electronic system.",
+    "ja": ""
+  },
+  {
+    "start": 70.47,
+    "end": 71.5,
+    "en": "Yeah. The LiTRIC Yeah.",
+    "ja": ""
+  },
+  {
+    "start": 71.5,
+    "end": 73.61,
+    "en": "LiTRIC Micon. So our team worked on that.",
+    "ja": ""
+  },
+  {
+    "start": 73.61,
+    "end": 76.41,
+    "en": "That was a project that's been happening for 12 years.",
+    "ja": ""
+  },
+  {
+    "start": 76.41,
+    "end": 77.11,
+    "en": "All right.",
+    "ja": ""
+  },
+  {
+    "start": 77.11,
+    "end": 81.51,
+    "en": "So many different innovations happen to build something big like that.",
+    "ja": ""
+  },
+  {
+    "start": 82.15,
+    "end": 84.15,
+    "en": "So that's that's one example.",
+    "ja": ""
+  },
+  {
+    "start": 84.15,
+    "end": 87.15,
+    "en": "Kind of very technical, kind of the point of extreme need",
+    "ja": ""
+  },
+  {
+    "start": 87.39,
+    "end": 90.36,
+    "en": "for an app for somebody in the backcountry.",
+    "ja": ""
+  },
+  {
+    "start": 90.36,
+    "end": 93.69,
+    "en": "Another one was, recently announced,",
+    "ja": ""
+  },
+  {
+    "start": 93.69,
+    "end": 97.53,
+    "en": "which is the first ever, powered pants for hiking.",
+    "ja": ""
+  },
+  {
+    "start": 97.83,
+    "end": 102.14,
+    "en": "So this was, a concept that came to us through Google X.",
+    "ja": ""
+  },
+  {
+    "start": 102.73,
+    "end": 105.27,
+    "en": "They reached out to us knowing that we have deep",
+    "ja": ""
+  },
+  {
+    "start": 105.27,
+    "end": 108.24,
+    "en": "expertise in apparel innovation.",
+    "ja": ""
+  },
+  {
+    "start": 108.34,
+    "end": 112.41,
+    "en": "They wanted us to work with them on a project to create pants",
+    "ja": ""
+  },
+  {
+    "start": 112.41,
+    "end": 115.38,
+    "en": "that would allow people to climb access to mountains.",
+    "ja": ""
+  },
+  {
+    "start": 115.92,
+    "end": 117.92,
+    "en": "So the company is called Skip.",
+    "ja": ""
+  },
+  {
+    "start": 117.92,
+    "end": 120.29,
+    "en": "They were they came out of, Google X",
+    "ja": ""
+  },
+  {
+    "start": 121.39,
+    "end": 123.99,
+    "en": "and, we're partnering closely with them today.",
+    "ja": ""
+  },
+  {
+    "start": 123.99,
+    "end": 126.99,
+    "en": "We developed a proof of concept that we launched last year.",
+    "ja": ""
+  },
+  {
+    "start": 127.49,
+    "end": 129.23,
+    "en": "And many people have been trying it.",
+    "ja": ""
+  },
+  {
+    "start": 129.23,
+    "end": 132.23,
+    "en": "And there's, there's quite a lot of positive feedback on that.",
+    "ja": ""
+  },
+  {
+    "start": 132.83,
+    "end": 135.24,
+    "en": "So that's another example of the type of project.",
+    "ja": ""
+  },
+  {
+    "start": 135.24,
+    "end": 140.47,
+    "en": "So, usually where there's a real need or an exciting opportunity.",
+    "ja": ""
+  },
+  {
+    "start": 141.14,
+    "end": 144.21,
+    "en": "And we're, we either work on projects internally",
+    "ja": ""
+  },
+  {
+    "start": 144.21,
+    "end": 148.38,
+    "en": "or we partner with experts, based on what problem we're trying to solve.",
+    "ja": ""
+  },
+  {
+    "start": 148.38,
+    "end": 152.42,
+    "en": "And then we leverage the expertise that we have on, advanced",
+    "ja": ""
+  },
+  {
+    "start": 152.49,
+    "end": 155.49,
+    "en": "apparel innovation and our partners",
+    "ja": ""
+  },
+  {
+    "start": 155.79,
+    "end": 159.36,
+    "en": "from other areas to advance and create breakthroughs for the industry.",
+    "ja": ""
   }
 ]
