@@ -1,20 +1,260 @@
 [
   {
-    "start": 0.0,
-    "end": 3.5,
-    "en": "There's always a better way.",
-    "ja": "もっと良い方法は、きっとある。"
+    "start": 0.03,
+    "end": 2.8,
+    "en": "About ReBIRD when you start.",
+    "ja": ""
   },
   {
-    "start": 4.0,
-    "end": 7.2,
-    "en": "We just need to find it.",
-    "ja": "それを見つけ出すだけだ。"
+    "start": 2.8,
+    "end": 5.8,
+    "en": "ReBIRD is our commitment to circular.",
+    "ja": ""
   },
   {
-    "start": 7.3,
-    "end": 10.0,
-    "en": "That’s the beginning of everything.",
-    "ja": "すべては、そこから始まる。"
+    "start": 5.84,
+    "end": 8.68,
+    "en": "Programing. So, we call it a platform.",
+    "ja": ""
+  },
+  {
+    "start": 8.68,
+    "end": 10.78,
+    "en": "And essentially we're it's a series of services",
+    "ja": ""
+  },
+  {
+    "start": 10.78,
+    "end": 14.21,
+    "en": "and programs that we have created to help support a more sustainable",
+    "ja": ""
+  },
+  {
+    "start": 14.21,
+    "end": 17.22,
+    "en": "future for our product and for our guest.",
+    "ja": ""
+  },
+  {
+    "start": 17.55,
+    "end": 20.32,
+    "en": "We were started in 2021 officially.",
+    "ja": ""
+  },
+  {
+    "start": 20.32,
+    "end": 21.55,
+    "en": "Oh, yeah.",
+    "ja": ""
+  },
+  {
+    "start": 21.55,
+    "end": 24.39,
+    "en": "That's for you. That's the year.",
+    "ja": ""
+  },
+  {
+    "start": 24.39,
+    "end": 25.89,
+    "en": "Like I mentioned, we tend to start things",
+    "ja": ""
+  },
+  {
+    "start": 25.89,
+    "end": 28.7,
+    "en": "a little sooner and test and learn from them before we start.",
+    "ja": ""
+  },
+  {
+    "start": 28.7,
+    "end": 31.7,
+    "en": "So we actually started reselling in 2019.",
+    "ja": ""
+  },
+  {
+    "start": 32.83,
+    "end": 35.5,
+    "en": "And it was originally called use Gear use.",
+    "ja": ""
+  },
+  {
+    "start": 35.5,
+    "end": 37.94,
+    "en": "So we already had started learning from resale.",
+    "ja": ""
+  },
+  {
+    "start": 37.94,
+    "end": 42.48,
+    "en": "So we've always had care and repair inside of our programing.",
+    "ja": ""
+  },
+  {
+    "start": 42.91,
+    "end": 45.91,
+    "en": "Since the beginning of time, it used to always be,",
+    "ja": ""
+  },
+  {
+    "start": 46.28,
+    "end": 48.31,
+    "en": "there's a red Milwaukee toolbox. I'll show you.",
+    "ja": ""
+  },
+  {
+    "start": 48.31,
+    "end": 50.48,
+    "en": "But it used to always be in this red toolbox",
+    "ja": ""
+  },
+  {
+    "start": 50.48,
+    "end": 52.48,
+    "en": "that wouldn't be in every one of our stores.",
+    "ja": ""
+  },
+  {
+    "start": 52.48,
+    "end": 53.69,
+    "en": "And we would always,",
+    "ja": ""
+  },
+  {
+    "start": 53.69,
+    "end": 57.26,
+    "en": "try to encourage, quick fixes, DIY fixes for our guests.",
+    "ja": ""
+  },
+  {
+    "start": 57.26,
+    "end": 60.93,
+    "en": "People got used to putting duct tape on their jackets or tenacious tape,",
+    "ja": ""
+  },
+  {
+    "start": 61.46,
+    "end": 61.96,
+    "en": "but we wanted to",
+    "ja": ""
+  },
+  {
+    "start": 61.96,
+    "end": 65.03,
+    "en": "elevate that experience and make it more accessible.",
+    "ja": ""
+  },
+  {
+    "start": 65.2,
+    "end": 68.8,
+    "en": "So ReBIRD also represents accessibility for care and",
+    "ja": ""
+  },
+  {
+    "start": 68.8,
+    "end": 70.1,
+    "en": "repair for your products.",
+    "ja": ""
+  },
+  {
+    "start": 71.7,
+    "end": 73.47,
+    "en": "And then on top of that, we offer trade in",
+    "ja": ""
+  },
+  {
+    "start": 73.47,
+    "end": 76.64,
+    "en": "and we're looking to, for, for existing garments where you, where",
+    "ja": ""
+  },
+  {
+    "start": 76.64,
+    "end": 77.21,
+    "en": "you maybe",
+    "ja": ""
+  },
+  {
+    "start": 77.21,
+    "end": 78.81,
+    "en": "don't have use for the product anymore",
+    "ja": ""
+  },
+  {
+    "start": 78.81,
+    "end": 81.11,
+    "en": "and you want to trade it in for resale.",
+    "ja": ""
+  },
+  {
+    "start": 81.11,
+    "end": 84.18,
+    "en": "We're looking to other circular opportunities in the future as well.",
+    "ja": ""
+  },
+  {
+    "start": 85.92,
+    "end": 87.72,
+    "en": "ReBIRD is also very deeply connected",
+    "ja": ""
+  },
+  {
+    "start": 87.72,
+    "end": 91.06,
+    "en": "to how we provide feedback to our design teams.",
+    "ja": ""
+  },
+  {
+    "start": 91.46,
+    "end": 94.09,
+    "en": "So we have a lot of data inside of ReBIRD",
+    "ja": ""
+  },
+  {
+    "start": 94.09,
+    "end": 97.36,
+    "en": "on warranty cases and repairs and damages that come to us",
+    "ja": ""
+  },
+  {
+    "start": 98.0,
+    "end": 100.73,
+    "en": "when we aggregate enough,",
+    "ja": ""
+  },
+  {
+    "start": 100.73,
+    "end": 104.37,
+    "en": "information on a particular trim or a particular zipper",
+    "ja": ""
+  },
+  {
+    "start": 104.37,
+    "end": 105.97,
+    "en": "or particular material.",
+    "ja": ""
+  },
+  {
+    "start": 105.97,
+    "end": 107.84,
+    "en": "We deliver that content to our design team",
+    "ja": ""
+  },
+  {
+    "start": 107.84,
+    "end": 111.74,
+    "en": "so that they understand how to design that damage out in the future.",
+    "ja": ""
+  },
+  {
+    "start": 112.58,
+    "end": 114.38,
+    "en": "And if we partner with them.",
+    "ja": ""
+  },
+  {
+    "start": 114.38,
+    "end": 115.42,
+    "en": "So it's very data driven.",
+    "ja": ""
   }
 ]
