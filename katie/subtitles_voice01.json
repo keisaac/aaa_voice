@@ -1,20 +1,416 @@
 [
   {
-    "start": 0.0,
-    "end": 3.5,
+    "start": 0.4,
+    "end": 3.4,
+    "en": "What is the design philosophy of Arc'teryx?",
+    "ja": ""
+  },
+  {
+    "start": 3.57,
+    "end": 4.64,
+    "en": "You tell me.",
+    "ja": ""
+  },
+  {
+    "start": 4.64,
+    "end": 9.58,
+    "en": "Yeah, I'd say the the overarching is always been and will continue to be.",
+    "ja": ""
+  },
+  {
+    "start": 10.08,
+    "end": 12.35,
+    "en": "It's there's always a better way.",
+    "ja": ""
+  },
+  {
+    "start": 12.35,
+    "end": 14.28,
+    "en": "That is our design philosophy.",
+    "ja": ""
+  },
+  {
+    "start": 14.28,
+    "end": 15.48,
+    "en": "That's what we start with. Everything.",
+    "ja": ""
+  },
+  {
+    "start": 15.48,
+    "end": 17.35,
     "en": "There's always a better way.",
-    "ja": "もっと良い方法は、きっとある。"
+    "ja": ""
   },
   {
-    "start": 4.0,
-    "end": 7.2,
-    "en": "We just need to find it.",
-    "ja": "それを見つけ出すだけだ。"
+    "start": 17.35,
+    "end": 23.26,
+    "en": "And then under that, we have four design filters that we, really focus on.",
+    "ja": ""
   },
   {
-    "start": 7.3,
-    "end": 10.0,
-    "en": "That’s the beginning of everything.",
-    "ja": "すべては、そこから始まる。"
+    "start": 23.26,
+    "end": 26.59,
+    "en": "And the first one is around authenticity to authentic.",
+    "ja": ""
+  },
+  {
+    "start": 27.06,
+    "end": 31.46,
+    "en": "So, everything we do, the first filter that we put it through is it authentic?",
+    "ja": ""
+  },
+  {
+    "start": 31.66,
+    "end": 33.03,
+    "en": "Should we make it?",
+    "ja": ""
+  },
+  {
+    "start": 33.03,
+    "end": 34.33,
+    "en": "Should Arc'teryx do this?",
+    "ja": ""
+  },
+  {
+    "start": 34.33,
+    "end": 35.44,
+    "en": "That's really important.",
+    "ja": ""
+  },
+  {
+    "start": 35.44,
+    "end": 38.44,
+    "en": "It seems very simple.",
+    "ja": ""
+  },
+  {
+    "start": 38.91,
+    "end": 41.41,
+    "en": "But it's it's it's a hard one because sometimes somebody",
+    "ja": ""
+  },
+  {
+    "start": 41.41,
+    "end": 44.44,
+    "en": "might want to make something that's maybe not relevant to us.",
+    "ja": ""
+  },
+  {
+    "start": 44.44,
+    "end": 47.18,
+    "en": "And we always say, no.",
+    "ja": ""
+  },
+  {
+    "start": 47.18,
+    "end": 48.01,
+    "en": "Should we make it?",
+    "ja": ""
+  },
+  {
+    "start": 48.01,
+    "end": 49.78,
+    "en": "So that's the first filter.",
+    "ja": ""
+  },
+  {
+    "start": 49.78,
+    "end": 52.12,
+    "en": "The second one is is it functional?",
+    "ja": ""
+  },
+  {
+    "start": 52.12,
+    "end": 53.89,
+    "en": "Are we actually solving for purpose?",
+    "ja": ""
+  },
+  {
+    "start": 54.89,
+    "end": 56.79,
+    "en": "Is there something out there that an athlete",
+    "ja": ""
+  },
+  {
+    "start": 56.79,
+    "end": 60.73,
+    "en": "or somebody on the design floor, really wants that isn't there?",
+    "ja": ""
+  },
+  {
+    "start": 60.89,
+    "end": 64.2,
+    "en": "So then focusing on a function like the next one is beauty.",
+    "ja": ""
+  },
+  {
+    "start": 65.2,
+    "end": 68.3,
+    "en": "So as you know, everything we do is so simplistic.",
+    "ja": ""
+  },
+  {
+    "start": 68.73,
+    "end": 70.7,
+    "en": "What can we strip away?",
+    "ja": ""
+  },
+  {
+    "start": 70.7,
+    "end": 74.04,
+    "en": "Really looking at beauty as a 360 degree approach to it.",
+    "ja": ""
+  },
+  {
+    "start": 74.04,
+    "end": 75.74,
+    "en": "You come to this floor.",
+    "ja": ""
+  },
+  {
+    "start": 75.74,
+    "end": 77.71,
+    "en": "We're not looking at just drawing things.",
+    "ja": ""
+  },
+  {
+    "start": 77.71,
+    "end": 79.58,
+    "en": "We're actually creating things three dimensionally.",
+    "ja": ""
+  },
+  {
+    "start": 79.58,
+    "end": 81.88,
+    "en": "So looking at what can we strip down?",
+    "ja": ""
+  },
+  {
+    "start": 81.88,
+    "end": 83.28,
+    "en": "What can we minimize on this.",
+    "ja": ""
+  },
+  {
+    "start": 83.28,
+    "end": 86.29,
+    "en": "If you look at the original zipper garages and things like that.",
+    "ja": ""
+  },
+  {
+    "start": 86.42,
+    "end": 90.02,
+    "en": "It was just this beautiful way to how is a zipper to make it waterproof.",
+    "ja": ""
+  },
+  {
+    "start": 90.02,
+    "end": 92.86,
+    "en": "But just looking at how we can obsess over those little details.",
+    "ja": ""
+  },
+  {
+    "start": 92.86,
+    "end": 96.13,
+    "en": "So that's this concept of housing function and beauty.",
+    "ja": ""
+  },
+  {
+    "start": 97.0,
+    "end": 99.77,
+    "en": "And then the fourth one is, responsibility.",
+    "ja": ""
+  },
+  {
+    "start": 99.77,
+    "end": 102.77,
+    "en": "So there's a lot of talk around sustainability.",
+    "ja": ""
+  },
+  {
+    "start": 103.1,
+    "end": 105.61,
+    "en": "And we like to actually not use that word.",
+    "ja": ""
+  },
+  {
+    "start": 105.61,
+    "end": 107.54,
+    "en": "We like to use the word responsible.",
+    "ja": ""
+  },
+  {
+    "start": 107.54,
+    "end": 112.21,
+    "en": "So when we look at how we design product, looking at the durability of it,",
+    "ja": ""
+  },
+  {
+    "start": 112.71,
+    "end": 113.71,
+    "en": "the longevity of it,",
+    "ja": ""
+  },
+  {
+    "start": 113.71,
+    "end": 116.72,
+    "en": "we want people to actually have our product as long as possible.",
+    "ja": ""
+  },
+  {
+    "start": 116.95,
+    "end": 120.12,
+    "en": "So when we start to talking about the concept of sustainability,",
+    "ja": ""
+  },
+  {
+    "start": 120.62,
+    "end": 121.99,
+    "en": "what's the repairability of it?",
+    "ja": ""
+  },
+  {
+    "start": 121.99,
+    "end": 125.89,
+    "en": "You went to ARC’ONE and you got to see all this return product.",
+    "ja": ""
+  },
+  {
+    "start": 126.09,
+    "end": 129.96,
+    "en": "So this design team gets to go there and obsess and like dig through all that",
+    "ja": ""
+  },
+  {
+    "start": 129.96,
+    "end": 131.73,
+    "en": "and see where it failure points.",
+    "ja": ""
+  },
+  {
+    "start": 131.73,
+    "end": 133.23,
+    "en": "How can we then design into that.",
+    "ja": ""
+  },
+  {
+    "start": 133.23,
+    "end": 134.9,
+    "en": "So that doesn't happen again.",
+    "ja": ""
+  },
+  {
+    "start": 134.9,
+    "end": 136.24,
+    "en": "What's repairability.",
+    "ja": ""
+  },
+  {
+    "start": 136.24,
+    "end": 137.97,
+    "en": "So those four filters is number one.",
+    "ja": ""
+  },
+  {
+    "start": 137.97,
+    "end": 139.21,
+    "en": "Is it authentic.",
+    "ja": ""
+  },
+  {
+    "start": 139.21,
+    "end": 142.21,
+    "en": "Number two is functional is a beautiful.",
+    "ja": ""
+  },
+  {
+    "start": 142.61,
+    "end": 144.11,
+    "en": "And is it responsible.",
+    "ja": ""
+  },
+  {
+    "start": 144.11,
+    "end": 147.08,
+    "en": "If it's those things then we get to put a bird on it.",
+    "ja": ""
+  },
+  {
+    "start": 147.08,
+    "end": 147.78,
+    "en": "That's it.",
+    "ja": ""
+  },
+  {
+    "start": 147.78,
+    "end": 150.65,
+    "en": "So it doesn't get a bird unless it has those things.",
+    "ja": ""
+  },
+  {
+    "start": 150.65,
+    "end": 152.19,
+    "en": "And a lot of times we'll go into",
+    "ja": ""
+  },
+  {
+    "start": 153.39,
+    "end": 155.52,
+    "en": "sketch reviews which are sketching on paper.",
+    "ja": ""
+  },
+  {
+    "start": 155.52,
+    "end": 157.66,
+    "en": "It's truly prototyping and making.",
+    "ja": ""
+  },
+  {
+    "start": 157.66,
+    "end": 160.66,
+    "en": "And we'll look at something and as, as we feel like it's ready, we're like,",
+    "ja": ""
+  },
+  {
+    "start": 161.13,
+    "end": 162.09,
+    "en": "does it deserve a bird?",
+    "ja": ""
+  },
+  {
+    "start": 162.09,
+    "end": 164.16,
+    "en": "And we've actually said sometimes, no it doesn't.",
+    "ja": ""
+  },
+  {
+    "start": 164.16,
+    "end": 166.67,
+    "en": "Can I put somebody else's logo on that? Maybe.",
+    "ja": ""
+  },
+  {
+    "start": 166.67,
+    "end": 167.53,
+    "en": "Then let's not make it.",
+    "ja": ""
+  },
+  {
+    "start": 167.53,
+    "end": 168.97,
+    "en": "Let's go back to the drawing board.",
+    "ja": ""
+  },
+  {
+    "start": 168.97,
+    "end": 171.04,
+    "en": "Let's reassess it and figure it out.",
+    "ja": ""
+  },
+  {
+    "start": 171.04,
+    "end": 173.84,
+    "en": "So that's kind of the philosophy and the filters that we go through.",
+    "ja": ""
   }
 ]
