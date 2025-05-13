@@ -120,76 +120,60 @@
     }
 
     function playAudio(button, voiceId) {
-      loadSubtitles(voiceId).then(() => {
-        if (currentVoiceId === voiceId && !audio.paused) {
-          audio.pause();
-          button.classList.remove('pulsing');
-          return;
-        } else if (currentVoiceId === voiceId && audio.paused) {
-          audio.play();
-          button.classList.add('pulsing');
-          return;
-        }
-
-        if (interval) clearInterval(interval);
-        if (currentButton) currentButton.classList.remove('pulsing');
-
-        currentVoiceId = voiceId;
-        currentButton = button;
-        subtitleIndex = 0;
-
-        audio.src = "audio_snippets/" + voiceId + ".mp3";
-        audio.volume = 0;
-        audio.currentTime = 0;
-        audio.play();
-        button.classList.add('pulsing');
-
-        let fadeIn = setInterval(() => {
-          if (audio.volume < 1.0) {
-            audio.volume = Math.min(audio.volume + 0.05, 1.0);
-          } else {
-            clearInterval(fadeIn);
-          }
-        }, 100);
-
-        interval = setInterval(() => {
-          const t = audio.currentTime;
-          if (subtitleIndex < subtitles.length &&
-              t >= subtitles[subtitleIndex].start &&
-              t <= subtitles[subtitleIndex].end) {
-            en.textContent = subtitles[subtitleIndex].en;
-            ja.textContent = subtitles[subtitleIndex].ja;
-          } else if (subtitleIndex < subtitles.length && t > subtitles[subtitleIndex].end) {
-            subtitleIndex++;
-          }
-          if (subtitleIndex >= subtitles.length || audio.ended) {
-            en.textContent = "";
-            ja.textContent = "";
-          }
-        }, 200);
-
-        audio.onended = () => {
-          clearInterval(interval);
-          button.classList.remove('pulsing');
-          en.textContent = "";
-          ja.textContent = "";
-          audio.currentTime = 0;
-          currentVoiceId = null;
-        };
-      });
+  if (audio.src && !audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+    if (currentButton) {
+      currentButton.classList.remove('pulsing');
     }
+  }
 
-    function resetAudio() {
-      if (audio) {
-        audio.pause();
-        audio.currentTime = 0;
-        if (currentButton) {
-          currentButton.classList.remove('pulsing');
-        }
+  loadSubtitles(voiceId).then(() => {
+    if (interval) clearInterval(interval);
+    currentVoiceId = voiceId;
+    currentButton = button;
+    subtitleIndex = 0;
+
+    audio.src = "audio_snippets/" + voiceId + ".mp3";
+    audio.volume = 0;
+    audio.currentTime = 0;
+    audio.play();
+    button.classList.add('pulsing');
+
+    let fadeIn = setInterval(() => {
+      if (audio.volume < 1.0) {
+        audio.volume = Math.min(audio.volume + 0.05, 1.0);
+      } else {
+        clearInterval(fadeIn);
+      }
+    }, 100);
+
+    interval = setInterval(() => {
+      const t = audio.currentTime;
+      if (subtitleIndex < subtitles.length &&
+          t >= subtitles[subtitleIndex].start &&
+          t <= subtitles[subtitleIndex].end) {
+        en.textContent = subtitles[subtitleIndex].en;
+        ja.textContent = subtitles[subtitleIndex].ja;
+      } else if (subtitleIndex < subtitles.length && t > subtitles[subtitleIndex].end) {
+        subtitleIndex++;
+      }
+      if (subtitleIndex >= subtitles.length || audio.ended) {
         en.textContent = "";
         ja.textContent = "";
       }
-    }
+    }, 200);
+
+    audio.onended = () => {
+      clearInterval(interval);
+      button.classList.remove('pulsing');
+      en.textContent = "";
+      ja.textContent = "";
+      audio.currentTime = 0;
+      currentVoiceId = null;
+    };
+  });
+}
 </script>
 <div style="text-align:center; margin-top:40px;"><a href="../index.html" style="color:white; font-family:'ElanITCPro'; text-decoration:none;">← BACK TO TOP</a></div>
 </body>
