@@ -1,20 +1,386 @@
 [
   {
-    "start": 0.0,
-    "end": 3.5,
-    "en": "There's always a better way.",
-    "ja": "もっと良い方法は、きっとある。"
+    "start": 0.2,
+    "end": 2.94,
+    "en": "When did you join the company?",
+    "ja": ""
   },
   {
-    "start": 4.0,
-    "end": 7.2,
-    "en": "We just need to find it.",
-    "ja": "それを見つけ出すだけだ。"
+    "start": 2.94,
+    "end": 4.5,
+    "en": "Well,",
+    "ja": ""
   },
   {
-    "start": 7.3,
-    "end": 10.0,
-    "en": "That’s the beginning of everything.",
-    "ja": "すべては、そこから始まる。"
+    "start": 4.5,
+    "end": 7.51,
+    "en": "1991 was,",
+    "ja": ""
+  },
+  {
+    "start": 8.94,
+    "end": 10.41,
+    "en": "you know, I knew I knew",
+    "ja": ""
+  },
+  {
+    "start": 10.41,
+    "end": 14.08,
+    "en": "Dave Lane for many, many years since I was, like, 14 years old.",
+    "ja": ""
+  },
+  {
+    "start": 14.65,
+    "end": 17.65,
+    "en": "And, you know, later on, Dave was starting",
+    "ja": ""
+  },
+  {
+    "start": 17.65,
+    "end": 20.65,
+    "en": "to make climbing harnesses and I was making,",
+    "ja": ""
+  },
+  {
+    "start": 20.85,
+    "end": 24.86,
+    "en": "you know, backpacks and custom clothing and all that sort of thing.",
+    "ja": ""
+  },
+  {
+    "start": 25.36,
+    "end": 28.36,
+    "en": "And as, as rock",
+    "ja": ""
+  },
+  {
+    "start": 28.36,
+    "end": 31.36,
+    "en": "solid Dave's company was getting set up.",
+    "ja": ""
+  },
+  {
+    "start": 31.4,
+    "end": 33.8,
+    "en": "Excuse me. Yeah.",
+    "ja": ""
+  },
+  {
+    "start": 33.8,
+    "end": 35.97,
+    "en": "He phoned me and said, oh, you should come and join me",
+    "ja": ""
+  },
+  {
+    "start": 35.97,
+    "end": 38.97,
+    "en": "in bringing what you're doing into the mix.",
+    "ja": ""
+  },
+  {
+    "start": 39.27,
+    "end": 42.88,
+    "en": "And I said to him, honestly, Dave, you know, I don't think either of us",
+    "ja": ""
+  },
+  {
+    "start": 42.88,
+    "end": 46.28,
+    "en": "are even making a paycheck, so this is a great idea.",
+    "ja": ""
+  },
+  {
+    "start": 46.35,
+    "end": 49.65,
+    "en": "But, there wasn't really the money to actually,",
+    "ja": ""
+  },
+  {
+    "start": 49.92,
+    "end": 53.15,
+    "en": "you know, even have one employee, at that time.",
+    "ja": ""
+  },
+  {
+    "start": 53.82,
+    "end": 57.29,
+    "en": "There was a fellow, Squamish climber named Nick Jones",
+    "ja": ""
+  },
+  {
+    "start": 57.79,
+    "end": 63.16,
+    "en": "who was the, working at rock solid at the time when it was just chalk",
+    "ja": ""
+  },
+  {
+    "start": 63.16,
+    "end": 67.5,
+    "en": "bags and quick draws and slings, mostly Bartok stuff right into.",
+    "ja": ""
+  },
+  {
+    "start": 68.4,
+    "end": 71.94,
+    "en": "So Dave was working as a carpenter during the day to make money",
+    "ja": ""
+  },
+  {
+    "start": 71.94,
+    "end": 73.77,
+    "en": "to keep rock solid alive.",
+    "ja": ""
+  },
+  {
+    "start": 73.77,
+    "end": 76.74,
+    "en": "And then Nick would be working in the garage, making the,",
+    "ja": ""
+  },
+  {
+    "start": 76.74,
+    "end": 80.08,
+    "en": "making the small slings and things like that. So,",
+    "ja": ""
+  },
+  {
+    "start": 81.38,
+    "end": 85.75,
+    "en": "not long after, Dave met Jeremy and,",
+    "ja": ""
+  },
+  {
+    "start": 85.95,
+    "end": 89.62,
+    "en": "they started to put the whole story of Arc'teryx together.",
+    "ja": ""
+  },
+  {
+    "start": 90.06,
+    "end": 94.19,
+    "en": "So, you know, very quickly the name Arc'teryx was created, and,",
+    "ja": ""
+  },
+  {
+    "start": 94.73,
+    "end": 99.23,
+    "en": "I got another phone call from Dave Lane asking to come and join.",
+    "ja": ""
+  },
+  {
+    "start": 99.23,
+    "end": 102.87,
+    "en": "And I said, well, I hear there's a businessman involved now.",
+    "ja": ""
+  },
+  {
+    "start": 103.27,
+    "end": 106.27,
+    "en": "So, I said, yeah, for sure.",
+    "ja": ""
+  },
+  {
+    "start": 106.71,
+    "end": 107.37,
+    "en": "Come on over.",
+    "ja": ""
+  },
+  {
+    "start": 107.37,
+    "end": 110.38,
+    "en": "And, that was the first little,",
+    "ja": ""
+  },
+  {
+    "start": 110.88,
+    "end": 114.35,
+    "en": "factory at 1440 Columbia Street in North End,",
+    "ja": ""
+  },
+  {
+    "start": 114.85,
+    "end": 119.52,
+    "en": "which is, you know, less than 1000m from our headquarters.",
+    "ja": ""
+  },
+  {
+    "start": 120.02,
+    "end": 122.36,
+    "en": "Right now on the other side of the bridge.",
+    "ja": ""
+  },
+  {
+    "start": 122.36,
+    "end": 126.29,
+    "en": "So, yeah, that was the that was the very beginning.",
+    "ja": ""
+  },
+  {
+    "start": 126.29,
+    "end": 128.36,
+    "en": "And I remember walking in there",
+    "ja": ""
+  },
+  {
+    "start": 128.36,
+    "end": 131.23,
+    "en": "and, you know, there was maybe 5 or 6 people",
+    "ja": ""
+  },
+  {
+    "start": 131.23,
+    "end": 134.1,
+    "en": "that was the entire company in one small room.",
+    "ja": ""
+  },
+  {
+    "start": 134.1,
+    "end": 139.37,
+    "en": "So you were designing some, like climbing gears and then two",
+    "ja": ""
+  },
+  {
+    "start": 141.17,
+    "end": 141.81,
+    "en": "when you.",
+    "ja": ""
+  },
+  {
+    "start": 141.81,
+    "end": 143.44,
+    "en": "Oh, yeah.",
+    "ja": ""
+  },
+  {
+    "start": 143.44,
+    "end": 143.78,
+    "en": "Yeah.",
+    "ja": ""
+  },
+  {
+    "start": 143.78,
+    "end": 147.41,
+    "en": "In the 1980s, I had my own little label, and,",
+    "ja": ""
+  },
+  {
+    "start": 147.88,
+    "end": 150.88,
+    "en": "I didn't think making harnesses was a good idea",
+    "ja": ""
+  },
+  {
+    "start": 150.88,
+    "end": 153.89,
+    "en": "because I wouldn't be able to get them certified and,",
+    "ja": ""
+  },
+  {
+    "start": 153.89,
+    "end": 157.66,
+    "en": "and, and, and made to the best standard.",
+    "ja": ""
+  },
+  {
+    "start": 157.66,
+    "end": 160.66,
+    "en": "So I kept to stuff that was,",
+    "ja": ""
+  },
+  {
+    "start": 160.83,
+    "end": 163.83,
+    "en": "somewhat less technical and that,",
+    "ja": ""
+  },
+  {
+    "start": 164.53,
+    "end": 169.3,
+    "en": "that also made me realize that that stuff that I was making",
+    "ja": ""
+  },
+  {
+    "start": 169.3,
+    "end": 173.11,
+    "en": "had to look better and had to be better, or else",
+    "ja": ""
+  },
+  {
+    "start": 173.11,
+    "end": 173.97,
+    "en": "why would you do it",
+    "ja": ""
+  },
+  {
+    "start": 173.97,
+    "end": 177.14,
+    "en": "if you were going to make something that was the same as everybody else's?",
+    "ja": ""
+  },
+  {
+    "start": 177.51,
+    "end": 180.38,
+    "en": "Well, maybe that's a little bit of a business.",
+    "ja": ""
+  },
+  {
+    "start": 180.38,
+    "end": 183.28,
+    "en": "I, I think there's a, there always is",
+    "ja": ""
+  },
+  {
+    "start": 183.28,
+    "end": 186.29,
+    "en": "and always was a bigger creative opportunity to make things.",
+    "ja": ""
+  },
+  {
+    "start": 187.02,
+    "end": 191.62,
+    "en": "Not just better, but, you know, more beautiful had having having something",
+    "ja": ""
+  },
+  {
+    "start": 191.62,
+    "end": 195.66,
+    "en": "that, made people care that that effort was made",
+    "ja": ""
+  },
+  {
+    "start": 195.69,
+    "end": 198.87,
+    "en": "that you that you didn't just make a, a functional,",
+    "ja": ""
+  },
+  {
+    "start": 198.87,
+    "end": 201.87,
+    "en": "simple thing, you made something that was enchanting.",
+    "ja": ""
+  },
+  {
+    "start": 202.17,
+    "end": 206.37,
+    "en": "And, you would you would you would you would have some love for it",
+    "ja": ""
+  },
+  {
+    "start": 206.37,
+    "end": 209.47,
+    "en": "or respect for it because the people that made it and designed",
+    "ja": ""
+  },
+  {
+    "start": 209.47,
+    "end": 212.48,
+    "en": "it had a love for it and respect for it as well.",
+    "ja": ""
+  },
+  {
+    "start": 212.48,
+    "end": 215.85,
+    "en": "And you could see that with our work, you could see that we take care.",
+    "ja": ""
   }
 ]
