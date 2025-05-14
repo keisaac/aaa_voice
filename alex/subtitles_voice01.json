@@ -2,14 +2,14 @@
   {
     "start": 0.03,
     "end": 2.4,
-    "en": "Tell me, what is the other one?",
-    "ja": "もうひとつのチームについて教えてください。"
+    "en": "Tell me, what is the Advanced ",
+    "ja": "Advanced Concepts チームについて"
   },
   {
     "start": 2.4,
     "end": 5.37,
     "en": "Concept team at Arc'teryx.",
-    "ja": "アークテリクスのコンセプトチームについて。"
+    "ja": "教えて下さい。"
   },
   {
     "start": 5.77,
